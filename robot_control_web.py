@@ -157,7 +157,7 @@ def ButtonTurnRight():
     global speedLeft
     global speedRight
     
-    # Das Roboter-Auto bremst rechten Motor und beschleunigt linken Motor -> Rechtsfahrt
+    # Das Roboter-Auto bremst den rechten Motor und beschleunigt linken Motor -> Rechtsfahrt
     # bei jedem Tastendruck des Buttons bis maximal 100%. Dann fährt es maximal schnell rückwärts
     speedLeft = speedLeft + accelIncrement
     speedRight = speedRight + decelIncrement
