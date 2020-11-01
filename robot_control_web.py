@@ -167,8 +167,8 @@ def ButtonTurnRight():
     # speedRight = speedRight + decelIncrement
     
     # Fester Wert für rechte und linke Motorgeschwindigkeit, d.h. kein schrittweise Inkrementieren
-    speedLeft = -0.6
-    speedRight = 0.6
+    speedLeft = 0.6
+    speedRight = -0.6
     
     if speedLeft > 1:
         speedLeft = 1
